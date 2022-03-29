@@ -2,6 +2,7 @@
 
 *.txt         text eol=lf
 *.xml         text eol=lf
+*.html        text eol=lf
 *.json        text eol=lf
 *.properties  text eol=lf
 *.conf        text eol=lf
@@ -12,6 +13,7 @@
 *.jsx         text eol=lf
 *.ts          text eol=lf
 *.tsx         text eol=lf
+*.git*         text eol=lf
 
 *.awk  text eol=lf
 *.sed  text eol=lf
