@@ -19,5 +19,40 @@
   "bugs": {
     "url": "https://github.com/Exodiel/craco-vitest/issues"
   },
-  "homepage": "https://github.com/Exodiel/craco-vitest#readme"
+  "homepage": "https://github.com/Exodiel/craco-vitest#readme",
+  "devDependencies": {
+    "@craco/craco": "6.4.3",
+    "@testing-library/jest-dom": "5.16.3",
+    "@testing-library/react": "12.1.4",
+    "@testing-library/react-hooks": "7.0.2",
+    "@testing-library/user-event": "14.0.0",
+    "@types/faker": "5.5.9",
+    "@types/jest": "27.4.1",
+    "@types/node": "17.0.23",
+    "@types/node-jose": "1.1.10",
+    "faker": "5.5.3",
+    "react-scripts": "5.0.0",
+    "typescript": "4.6.3",
+    "vitest": "0.8.0"
+  },
+  "dependencies": {
+    "moment": "2.29.1",
+    "node-jose": "2.1.0",
+    "react": "18.0.0",
+    "react-dom": "18.0.0"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "jest": {
+    "collectCoverageFrom": [
+      "**/*.{js,jsx}"
+    ]
+  }
 }
