@@ -14,7 +14,8 @@
 *.jsx         text eol=lf
 *.ts          text eol=lf
 *.tsx         text eol=lf
-*.git*         text eol=lf
+*.git*        text eol=lf
+Dockerfile    text eol=lf
 
 *.awk  text eol=lf
 *.sed  text eol=lf
