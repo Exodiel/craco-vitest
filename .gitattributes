@@ -25,3 +25,5 @@ Dockerfile    text eol=lf
 *.jpg  binary
 
 *.p12  binary
+
+.github/**/*.yml    text eol=lf
