@@ -9,7 +9,7 @@ on:
     branches:
       - main
       - develop
-    types: [ opened, edited, reopened, synchronize ]
+    types: [opened, edited, reopened, synchronize]
 jobs:
   run-linters-tests:
     name: Run Linters and Tests
@@ -47,9 +47,11 @@ jobs:
           # FORTAWESOME_TOKEN: ${{secrets.FORTAWESOME_TOKEN}}
           #NODE_AUTH_TOKEN: ${{ secrets.TOKEN_REG }}
           GITHUB_TOKEN: ${{ secrets.GHA_TOKEN }}
-      #- name: Lint JS
-        #run: yarn lint
+      - name: Format Code
+        run: yarn lint
+      - name: Lint Code
+        run: yarn lint
       #- name: Lint Styles
-        #run: yarn lint:style
+      #run: yarn lint:style
       - name: Unit Tests
         run: yarn test

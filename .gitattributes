@@ -1,21 +1,28 @@
 * text=auto
 
-*.txt         text eol=lf
-*.md          text eol=lf
-*.xml         text eol=lf
-*.html        text eol=lf
-*.json        text eol=lf
-*.properties  text eol=lf
-*.conf        text eol=lf
-*.css         text eol=lf
-*.sass        text eol=lf
-*.scss        text eol=lf
-*.js          text eol=lf
-*.jsx         text eol=lf
-*.ts          text eol=lf
-*.tsx         text eol=lf
-*.git*        text eol=lf
-Dockerfile    text eol=lf
+*.txt                 text eol=lf
+*.md                  text eol=lf
+*.xml                 text eol=lf
+*.html                text eol=lf
+*.json                text eol=lf
+*.properties          text eol=lf
+*.conf                text eol=lf
+*.css                 text eol=lf
+*.sass                text eol=lf
+*.scss                text eol=lf
+*.js                  text eol=lf
+*.jsx                 text eol=lf
+*.ts                  text eol=lf
+*.tsx                 text eol=lf
+*.git*                text eol=lf
+*.editorconfig        text eol=lf
+*.eslintignore        text eol=lf
+*.eslintrc            text eol=lf
+*.stylelintrc.json    text eol=lf
+*.stylelintignore     text eol=lf
+*.prettierignore      text eol=lf
+*.prettierrc          text eol=lf
+Dockerfile            text eol=lf
 
 *.awk  text eol=lf
 *.sed  text eol=lf
@@ -26,4 +33,4 @@ Dockerfile    text eol=lf
 
 *.p12  binary
 
-.github/**/*.yml    text eol=lf
+.github/**/*.yml      text eol=lf

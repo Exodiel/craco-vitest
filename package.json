@@ -1,72 +1,97 @@
 {
-  "name": "craco-vitest",
-  "version": "0.0.1",
-  "description": "A project which use craco and vitest",
-  "main": "index.js",
-  "scripts": {
-    "test": "vitest",
-    "start": "craco start",
-    "build": "craco build",
-    "prebuild": "babel src src --out-dir dist",
-    "eject": "react-scripts eject"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Exodiel/craco-vitest.git"
-  },
-  "keywords": [
-    "craco",
-    "vitest"
-  ],
-  "author": "Jipson Saad",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Exodiel/craco-vitest/issues"
-  },
-  "devDependencies": {
-    "@babel/cli": "7.17.6",
-    "@babel/plugin-proposal-nullish-coalescing-operator": "7.16.7",
-    "@babel/plugin-transform-react-jsx": "7.17.3",
-    "@craco/craco": "7.0.0-alpha.3",
-    "@testing-library/jest-dom": "5.16.3",
-    "@testing-library/react": "12.1.4",
-    "@testing-library/react-hooks": "7.0.2",
-    "@testing-library/user-event": "14.0.0",
-    "@types/faker": "5.5.9",
-    "@types/jest": "27.4.1",
-    "@types/node": "17.0.23",
-    "@types/node-jose": "1.1.10",
-    "faker": "5.5.3",
-    "react-scripts": "5.0.0",
-    "vitest": "0.8.0"
-  },
-  "dependencies": {
-    "moment": "2.29.1",
-    "node-jose": "2.1.0",
-    "react": "18.0.0",
-    "react-dom": "18.0.0"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "jest": {
-    "collectCoverageFrom": [
-      "**/*.{js,jsx}"
-    ]
-  }
+	"name": "craco-vitest",
+	"version": "0.0.1",
+	"description": "A project which use craco and vitest",
+	"main": "index.js",
+	"scripts": {
+		"test": "vitest",
+		"start": "craco start",
+		"build": "craco build",
+		"format": "prettier -uw --ignore-path .prettierignore .",
+		"lint": "eslint src --max-warnings=0 --ignore-path .eslintignore",
+		"lint:style": "stylelint src --max-warnings=0 --ignore-path .stylelintignore",
+		"prebuild": "babel src src --out-dir dist",
+		"eject": "react-scripts eject"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Exodiel/craco-vitest.git"
+	},
+	"keywords": [
+		"craco",
+		"vitest"
+	],
+	"author": "Jipson Saad",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/Exodiel/craco-vitest/issues"
+	},
+	"devDependencies": {
+		"@babel/cli": "7.17.6",
+		"@babel/eslint-parser": "7.17.0",
+		"@babel/preset-env": "7.16.11",
+		"@babel/preset-react": "7.16.7",
+		"@craco/craco": "7.0.0-alpha.3",
+		"@testing-library/jest-dom": "5.16.3",
+		"@testing-library/react": "12.1.4",
+		"@testing-library/react-hooks": "7.0.2",
+		"@testing-library/user-event": "14.0.0",
+		"@types/faker": "5.5.9",
+		"@types/jest": "27.4.1",
+		"@types/node": "17.0.23",
+		"@types/node-jose": "1.1.10",
+		"autoprefixer": "10.4.4",
+		"eslint": "8.12.0",
+		"eslint-config-prettier": "8.5.0",
+		"eslint-plugin-prettier": "4.0.0",
+		"eslint-plugin-react": "7.29.4",
+		"eslint-plugin-react-hooks": "4.4.0",
+		"eslint-plugin-tailwindcss": "3.5.0",
+		"faker": "5.5.3",
+		"postcss": "8.4.12",
+		"postcss-import": "14.1.0",
+		"postcss-nested": "5.0.6",
+		"postcss-scss": "4.0.3",
+		"prettier": "2.6.1",
+		"prettier-plugin-tailwindcss": "0.1.8",
+		"react-scripts": "5.0.0",
+		"sass": "1.49.10",
+		"stylelint": "14.6.1",
+		"stylelint-config-prettier": "9.0.3",
+		"stylelint-config-standard": "25.0.0",
+		"tailwindcss": "3.0.23",
+		"vitest": "0.8.0"
+	},
+	"dependencies": {
+		"moment": "2.29.1",
+		"node-jose": "2.1.0",
+		"react": "18.0.0",
+		"react-dom": "18.0.0"
+	},
+	"eslintConfig": {
+		"extends": [
+			"react-app",
+			"react-app/jest"
+		]
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"jest": {
+		"collectCoverageFrom": [
+			"**/*.{js,jsx}"
+		]
+	},
+	"resolutions": {
+		"postcss": "8.4.12"
+	}
 }
