@@ -16,6 +16,12 @@
 *.tsx                 text eol=lf
 *.git*                text eol=lf
 *.editorconfig        text eol=lf
+*.eslintignore        text eol=lf
+*.eslintrc            text eol=lf
+*.stylelintrc.json    text eol=lf
+*.stylelintignore     text eol=lf
+*.prettierignore      text eol=lf
+*.prettierrc          text eol=lf
 Dockerfile            text eol=lf
 
 *.awk  text eol=lf
