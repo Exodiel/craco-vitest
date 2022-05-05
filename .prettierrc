@@ -3,5 +3,5 @@
 	"useTabs": true,
 	"jsxSingleQuote": true,
 	"endOfLine": "lf",
-	"plugins": ["./node_modules/prettier-plugin-tailwindcss"]
+	"semi": false
 }
