@@ -1,4 +1,4 @@
-# Craco Vitest Template JS
+# Craco Vitest Template TS
 
 ## What this template does
 
