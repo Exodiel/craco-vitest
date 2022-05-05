@@ -9,18 +9,50 @@ By using this template or by following the guide bellow your project has support
 - Zero downtime deploy with Create-React-App (CRA) setup
 - Use **Vitest** to run all suite test
 
-## How to run this project
+## Getting Started
 
-```shell
-yarn install
-yarn start
+### Install
+
+#### Create the project.
+
+```bash
+npx degit Exodiel/craco-vitest project-name
 ```
 
-or
+#### Access the project directory.
 
-```shell
-npm install
-npm start
+```bash
+cd project-name
+```
+
+#### Install dependencies.
+
+```bash
+yarn install
+```
+
+Serve with hot reload at http://localhost:3000.
+
+```bash
+yarn run dev
+```
+
+### Lint
+
+```bash
+yarn run lint
+```
+
+### Build
+
+```bash
+yarn run build
+```
+
+### Test
+
+```bash
+yarn run test
 ```
 
 ## Notes
