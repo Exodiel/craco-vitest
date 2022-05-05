@@ -14,10 +14,11 @@
 		"eslint:recommended",
 		"plugin:react/recommended",
 		"plugin:prettier/recommended",
-		"plugin:tailwindcss/recommended",
+		"plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
 		"eslint-config-prettier"
 	],
-	"parser": "@babel/eslint-parser",
+	"parser": "@typescript-eslint/parser",
 	"parserOptions": {
 		"ecmaFeatures": {
 			"jsx": true
@@ -25,14 +26,13 @@
 		"ecmaVersion": 11,
 		"sourceType": "module"
 	},
-	"plugins": ["react", "react-hooks", "tailwindcss"],
+	"plugins": ["react", "react-hooks", "@typescript-eslint"],
 	"rules": {
 		"react-hooks/rules-of-hooks": "error",
 		"react-hooks/exhaustive-deps": "warn",
 		"react/prop-types": "off",
 		"react/react-in-jsx-scope": "off",
-		"tailwindcss/classnames-order": "warn",
-		"tailwindcss/no-custom-classname": "warn",
-		"tailwindcss/no-contradicting-classname": "error"
+		"@typescript-eslint/explicit-module-boundary-types": "off",
+    "@typescript-eslint/no-non-null-assertion": "off"
 	}
 }
